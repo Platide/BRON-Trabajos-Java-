@@ -13,9 +13,9 @@ package javaapplication26;
       int edad;
       
       public persona(String _nombre, String _apellido, int _edad){
-          this.nombre = nombre;
-          this.apellido = apellido;
-          this.edad = edad;
+          this.nombre = _nombre;
+          this.apellido = _apellido;
+          this.edad = _edad;
       }
       public String getnombre(){
           return this.nombre;
